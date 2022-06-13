@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+
+    display: grid;
+
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+
+    width: 70vmin;
+    height: 70vmin;
+
+    font-size: 70%;
+    
+    
+}
+
+.table>div{
+
+    height: 100%;
+    display: flex;
+    margin: 3px 0;
+    
+}
+
+.table>div>.elems{
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin: 1px;
+    
+    padding: 2px;
+
+    overflow: hidden;
+    
+}
+
+
+
+.coins{
+
+    height: 10vh;
+    width: 100%;
+
+    display: flex;
+
+    margin-top: 6em;
+
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.coins > p {
+    padding-left: 30px;
+    font-size: 1.35em;
+}
+
+.coins>img{
+    height: 10vh;
+}
+
+
+.correct{
+    background-color: #b5f7bb ;
+}
+
+.selected{
+    background-color: #f0feed ;
+}
+
+.unselected{
+    background-color: #cce0ff;
+}
